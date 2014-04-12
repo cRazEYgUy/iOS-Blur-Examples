@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		515A854118F96CBE003C5653 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515A854018F96CBE003C5653 /* Foundation.framework */; };
+		515A854318F96CBE003C5653 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515A854218F96CBE003C5653 /* CoreGraphics.framework */; };
+		515A854518F96CBE003C5653 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515A854418F96CBE003C5653 /* UIKit.framework */; };
+		515A854B18F96CBE003C5653 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 515A854918F96CBE003C5653 /* InfoPlist.strings */; };
+		515A854D18F96CBE003C5653 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 515A854C18F96CBE003C5653 /* main.m */; };
+		515A855118F96CBE003C5653 /* FJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 515A855018F96CBE003C5653 /* FJAppDelegate.m */; };
+		515A855418F96CBE003C5653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515A855218F96CBE003C5653 /* Main.storyboard */; };
+		515A855918F96CBE003C5653 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515A855818F96CBE003C5653 /* Images.xcassets */; };
+		515A856018F96CBE003C5653 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515A855F18F96CBE003C5653 /* XCTest.framework */; };
+		515A856118F96CBE003C5653 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515A854018F96CBE003C5653 /* Foundation.framework */; };
+		515A856218F96CBE003C5653 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515A854418F96CBE003C5653 /* UIKit.framework */; };
+		515A856A18F96CBE003C5653 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 515A856818F96CBE003C5653 /* InfoPlist.strings */; };
+		515A856C18F96CBE003C5653 /* Simple_Frosted_GlassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 515A856B18F96CBE003C5653 /* Simple_Frosted_GlassTests.m */; };
+		515A857718F96D4C003C5653 /* FJStaticBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 515A857618F96D4C003C5653 /* FJStaticBlurViewController.m */; };
+		515A857A18F96D56003C5653 /* FJFrostedGlassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 515A857918F96D56003C5653 /* FJFrostedGlassView.m */; };
+		515A857D18F96D86003C5653 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 515A857C18F96D86003C5653 /* UIImage+ImageEffects.m */; };
+		515A858118F96DA3003C5653 /* alex.png in Resources */ = {isa = PBXBuildFile; fileRef = 515A857F18F96DA3003C5653 /* alex.png */; };
+		515A858218F96DA3003C5653 /* alex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 515A858018F96DA3003C5653 /* alex@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		515A856318F96CBE003C5653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 515A853518F96CBE003C5653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 515A853C18F96CBE003C5653;
+			remoteInfo = "Simple Frosted Glass";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		515A853D18F96CBE003C5653 /* Simple Frosted Glass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Frosted Glass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		515A854018F96CBE003C5653 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		515A854218F96CBE003C5653 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		515A854418F96CBE003C5653 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		515A854818F96CBE003C5653 /* Simple Frosted Glass-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple Frosted Glass-Info.plist"; sourceTree = "<group>"; };
+		515A854A18F96CBE003C5653 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		515A854C18F96CBE003C5653 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		515A854E18F96CBE003C5653 /* Simple Frosted Glass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple Frosted Glass-Prefix.pch"; sourceTree = "<group>"; };
+		515A854F18F96CBE003C5653 /* FJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJAppDelegate.h; sourceTree = "<group>"; };
+		515A855018F96CBE003C5653 /* FJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJAppDelegate.m; sourceTree = "<group>"; };
+		515A855318F96CBE003C5653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		515A855818F96CBE003C5653 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		515A855E18F96CBE003C5653 /* Simple Frosted GlassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Frosted GlassTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		515A855F18F96CBE003C5653 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		515A856718F96CBE003C5653 /* Simple Frosted GlassTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple Frosted GlassTests-Info.plist"; sourceTree = "<group>"; };
+		515A856918F96CBE003C5653 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		515A856B18F96CBE003C5653 /* Simple_Frosted_GlassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_Frosted_GlassTests.m; sourceTree = "<group>"; };
+		515A857518F96D4C003C5653 /* FJStaticBlurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJStaticBlurViewController.h; sourceTree = "<group>"; };
+		515A857618F96D4C003C5653 /* FJStaticBlurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJStaticBlurViewController.m; sourceTree = "<group>"; };
+		515A857818F96D56003C5653 /* FJFrostedGlassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFrostedGlassView.h; sourceTree = "<group>"; };
+		515A857918F96D56003C5653 /* FJFrostedGlassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFrostedGlassView.m; sourceTree = "<group>"; };
+		515A857B18F96D86003C5653 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		515A857C18F96D86003C5653 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		515A857F18F96DA3003C5653 /* alex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alex.png; sourceTree = "<group>"; };
+		515A858018F96DA3003C5653 /* alex@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alex@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		515A853A18F96CBE003C5653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515A854318F96CBE003C5653 /* CoreGraphics.framework in Frameworks */,
+				515A854518F96CBE003C5653 /* UIKit.framework in Frameworks */,
+				515A854118F96CBE003C5653 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515A855B18F96CBE003C5653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515A856018F96CBE003C5653 /* XCTest.framework in Frameworks */,
+				515A856218F96CBE003C5653 /* UIKit.framework in Frameworks */,
+				515A856118F96CBE003C5653 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		515A853418F96CBE003C5653 = {
+			isa = PBXGroup;
+			children = (
+				515A854618F96CBE003C5653 /* Simple Frosted Glass */,
+				515A856518F96CBE003C5653 /* Simple Frosted GlassTests */,
+				515A853F18F96CBE003C5653 /* Frameworks */,
+				515A853E18F96CBE003C5653 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		515A853E18F96CBE003C5653 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				515A853D18F96CBE003C5653 /* Simple Frosted Glass.app */,
+				515A855E18F96CBE003C5653 /* Simple Frosted GlassTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		515A853F18F96CBE003C5653 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				515A854018F96CBE003C5653 /* Foundation.framework */,
+				515A854218F96CBE003C5653 /* CoreGraphics.framework */,
+				515A854418F96CBE003C5653 /* UIKit.framework */,
+				515A855F18F96CBE003C5653 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		515A854618F96CBE003C5653 /* Simple Frosted Glass */ = {
+			isa = PBXGroup;
+			children = (
+				515A857B18F96D86003C5653 /* UIImage+ImageEffects.h */,
+				515A857C18F96D86003C5653 /* UIImage+ImageEffects.m */,
+				515A857818F96D56003C5653 /* FJFrostedGlassView.h */,
+				515A857918F96D56003C5653 /* FJFrostedGlassView.m */,
+				515A857518F96D4C003C5653 /* FJStaticBlurViewController.h */,
+				515A857618F96D4C003C5653 /* FJStaticBlurViewController.m */,
+				515A854F18F96CBE003C5653 /* FJAppDelegate.h */,
+				515A855018F96CBE003C5653 /* FJAppDelegate.m */,
+				515A855218F96CBE003C5653 /* Main.storyboard */,
+				515A855818F96CBE003C5653 /* Images.xcassets */,
+				515A854718F96CBE003C5653 /* Supporting Files */,
+			);
+			path = "Simple Frosted Glass";
+			sourceTree = "<group>";
+		};
+		515A854718F96CBE003C5653 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				515A857E18F96DA3003C5653 /* Resources */,
+				515A854818F96CBE003C5653 /* Simple Frosted Glass-Info.plist */,
+				515A854918F96CBE003C5653 /* InfoPlist.strings */,
+				515A854C18F96CBE003C5653 /* main.m */,
+				515A854E18F96CBE003C5653 /* Simple Frosted Glass-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		515A856518F96CBE003C5653 /* Simple Frosted GlassTests */ = {
+			isa = PBXGroup;
+			children = (
+				515A856B18F96CBE003C5653 /* Simple_Frosted_GlassTests.m */,
+				515A856618F96CBE003C5653 /* Supporting Files */,
+			);
+			path = "Simple Frosted GlassTests";
+			sourceTree = "<group>";
+		};
+		515A856618F96CBE003C5653 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				515A856718F96CBE003C5653 /* Simple Frosted GlassTests-Info.plist */,
+				515A856818F96CBE003C5653 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		515A857E18F96DA3003C5653 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				515A857F18F96DA3003C5653 /* alex.png */,
+				515A858018F96DA3003C5653 /* alex@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		515A853C18F96CBE003C5653 /* Simple Frosted Glass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515A856F18F96CBE003C5653 /* Build configuration list for PBXNativeTarget "Simple Frosted Glass" */;
+			buildPhases = (
+				515A853918F96CBE003C5653 /* Sources */,
+				515A853A18F96CBE003C5653 /* Frameworks */,
+				515A853B18F96CBE003C5653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Frosted Glass";
+			productName = "Simple Frosted Glass";
+			productReference = 515A853D18F96CBE003C5653 /* Simple Frosted Glass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		515A855D18F96CBE003C5653 /* Simple Frosted GlassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515A857218F96CBE003C5653 /* Build configuration list for PBXNativeTarget "Simple Frosted GlassTests" */;
+			buildPhases = (
+				515A855A18F96CBE003C5653 /* Sources */,
+				515A855B18F96CBE003C5653 /* Frameworks */,
+				515A855C18F96CBE003C5653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				515A856418F96CBE003C5653 /* PBXTargetDependency */,
+			);
+			name = "Simple Frosted GlassTests";
+			productName = "Simple Frosted GlassTests";
+			productReference = 515A855E18F96CBE003C5653 /* Simple Frosted GlassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		515A853518F96CBE003C5653 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FJ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Fifteen Jugglers Software";
+				TargetAttributes = {
+					515A855D18F96CBE003C5653 = {
+						TestTargetID = 515A853C18F96CBE003C5653;
+					};
+				};
+			};
+			buildConfigurationList = 515A853818F96CBE003C5653 /* Build configuration list for PBXProject "Simple Frosted Glass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 515A853418F96CBE003C5653;
+			productRefGroup = 515A853E18F96CBE003C5653 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				515A853C18F96CBE003C5653 /* Simple Frosted Glass */,
+				515A855D18F96CBE003C5653 /* Simple Frosted GlassTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		515A853B18F96CBE003C5653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515A855918F96CBE003C5653 /* Images.xcassets in Resources */,
+				515A858118F96DA3003C5653 /* alex.png in Resources */,
+				515A858218F96DA3003C5653 /* alex@2x.png in Resources */,
+				515A854B18F96CBE003C5653 /* InfoPlist.strings in Resources */,
+				515A855418F96CBE003C5653 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515A855C18F96CBE003C5653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515A856A18F96CBE003C5653 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		515A853918F96CBE003C5653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515A855118F96CBE003C5653 /* FJAppDelegate.m in Sources */,
+				515A857D18F96D86003C5653 /* UIImage+ImageEffects.m in Sources */,
+				515A854D18F96CBE003C5653 /* main.m in Sources */,
+				515A857718F96D4C003C5653 /* FJStaticBlurViewController.m in Sources */,
+				515A857A18F96D56003C5653 /* FJFrostedGlassView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515A855A18F96CBE003C5653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515A856C18F96CBE003C5653 /* Simple_Frosted_GlassTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		515A856418F96CBE003C5653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 515A853C18F96CBE003C5653 /* Simple Frosted Glass */;
+			targetProxy = 515A856318F96CBE003C5653 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		515A854918F96CBE003C5653 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515A854A18F96CBE003C5653 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		515A855218F96CBE003C5653 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515A855318F96CBE003C5653 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		515A856818F96CBE003C5653 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515A856918F96CBE003C5653 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		515A856D18F96CBE003C5653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		515A856E18F96CBE003C5653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		515A857018F96CBE003C5653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Frosted Glass/Simple Frosted Glass-Prefix.pch";
+				INFOPLIST_FILE = "Simple Frosted Glass/Simple Frosted Glass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		515A857118F96CBE003C5653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Frosted Glass/Simple Frosted Glass-Prefix.pch";
+				INFOPLIST_FILE = "Simple Frosted Glass/Simple Frosted Glass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		515A857318F96CBE003C5653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simple Frosted Glass.app/Simple Frosted Glass";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Frosted Glass/Simple Frosted Glass-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Simple Frosted GlassTests/Simple Frosted GlassTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		515A857418F96CBE003C5653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simple Frosted Glass.app/Simple Frosted Glass";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Frosted Glass/Simple Frosted Glass-Prefix.pch";
+				INFOPLIST_FILE = "Simple Frosted GlassTests/Simple Frosted GlassTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		515A853818F96CBE003C5653 /* Build configuration list for PBXProject "Simple Frosted Glass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515A856D18F96CBE003C5653 /* Debug */,
+				515A856E18F96CBE003C5653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		515A856F18F96CBE003C5653 /* Build configuration list for PBXNativeTarget "Simple Frosted Glass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515A857018F96CBE003C5653 /* Debug */,
+				515A857118F96CBE003C5653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		515A857218F96CBE003C5653 /* Build configuration list for PBXNativeTarget "Simple Frosted GlassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515A857318F96CBE003C5653 /* Debug */,
+				515A857418F96CBE003C5653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 515A853518F96CBE003C5653 /* Project object */;
+}
